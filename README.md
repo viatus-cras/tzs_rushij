@@ -73,8 +73,16 @@ ffmpeg -i input.mp3 -ac 1 -ar 16000 -sample_fmt s16 -c:a pcm_s16le output.wav
 4. Готовий файл можна запустити напряму (подвійним тиском), якщо .jar асоційовано з Java у системі, або через консоль java -jar NazwaGry.jar
 5. Для додаткової сумісности чи спрощення запуску, рекомендується створити стартовий .bat із таким наповненням: java -jar "%CD%\NazwaGry.jar", якщо цей “батнік” запустити з теки гри — він автоматично запустить гру через консоль, тобто це щось на кшталт ярлика.
 
+###Відомі проблеми
+Помилки при компіляції:
+Note: TaZaradySpravedlyvoshty.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: TaZaradySpravedlyvoshty.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Не чинять перепонів.
+
 >Ваші знання Java мають бути на рівні 3\10 щоб зробити гру на цьому рушії.
 
 ###Християнські принципи та умови
 
-При створенні ігор раджу не виходити за межі принципів етичного геймінгу ( https://parusliv.blogspot.com/2024/07/blog-post_17.html ), щоби не порушувались умови розповсюдження рушія: не для злих цілей.
+При створенні ігор раджу не виходити за межі принципів етичного геймінгу ( https://parusliv.blogspot.com/2024/07/blog-post_17.html ), щоби напевне не порушувались умови надання рушія: не для злих цілей.
